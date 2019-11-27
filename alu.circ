@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.7.0" version="1.0">
+<project source="2.7.1" version="1.0">
 This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -95,6 +95,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,170)" to="(320,170)"/>
     <wire from="(370,260)" to="(370,340)"/>
     <wire from="(640,170)" to="(640,200)"/>
+    <wire from="(680,240)" to="(680,450)"/>
     <wire from="(520,210)" to="(520,240)"/>
     <wire from="(330,220)" to="(330,250)"/>
     <wire from="(290,250)" to="(330,250)"/>
@@ -111,7 +112,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,260)" to="(350,300)"/>
     <wire from="(370,340)" to="(370,380)"/>
     <wire from="(620,220)" to="(620,320)"/>
-    <wire from="(680,240)" to="(680,360)"/>
     <wire from="(370,160)" to="(380,160)"/>
     <wire from="(370,260)" to="(380,260)"/>
     <wire from="(370,340)" to="(380,340)"/>
@@ -121,16 +121,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(520,210)" to="(660,210)"/>
     <wire from="(570,200)" to="(570,380)"/>
     <wire from="(350,300)" to="(350,420)"/>
-    <comp lib="3" loc="(420,170)" name="Adder">
-      <a name="width" val="18"/>
-    </comp>
     <comp lib="0" loc="(150,170)" name="Pin">
+      <a name="width" val="18"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(430,320)" name="OR Gate">
+      <a name="width" val="18"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="OR"/>
+    </comp>
+    <comp lib="0" loc="(150,250)" name="Pin">
       <a name="width" val="18"/>
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(440,400)" name="NOR Gate">
       <a name="width" val="18"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="NOR"/>
+    </comp>
+    <comp lib="0" loc="(680,450)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="3" loc="(420,170)" name="Adder">
+      <a name="width" val="18"/>
+    </comp>
+    <comp lib="1" loc="(430,240)" name="AND Gate">
+      <a name="width" val="18"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="AND"/>
+    </comp>
+    <comp lib="0" loc="(820,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="2" loc="(700,220)" name="Multiplexer">
       <a name="select" val="2"/>
@@ -142,27 +167,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="width" val="18"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(150,250)" name="Pin">
-      <a name="width" val="18"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(680,360)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(430,240)" name="AND Gate">
-      <a name="width" val="18"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(820,380)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(430,320)" name="OR Gate">
-      <a name="width" val="18"/>
-      <a name="inputs" val="2"/>
     </comp>
   </circuit>
 </project>
