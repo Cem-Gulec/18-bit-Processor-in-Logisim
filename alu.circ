@@ -8,9 +8,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="incoming" val="6"/>
       <a name="appear" val="right"/>
     </tool>
-    <tool name="Tunnel">
-      <a name="facing" val="east"/>
-    </tool>
     <tool name="Clock">
       <a name="facing" val="north"/>
     </tool>
@@ -152,6 +149,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="width" val="2"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="ALU operation"/>
+      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="1" loc="(430,240)" name="AND Gate">
       <a name="width" val="18"/>
