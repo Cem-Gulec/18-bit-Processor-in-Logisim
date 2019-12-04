@@ -51,6 +51,9 @@ const instructions = fs
   .toString()
   .split("\n");
 
+if (process.argv[2] == "--logism") {
+  fs.appendFileSync("out.hex", "v2.0 raw" + "\n");
+}
 instructions.forEach(i => {
   i = i.replace("\r", "");
   console.log(i.padEnd(18), get(i), toHex("00" + get(i)));
