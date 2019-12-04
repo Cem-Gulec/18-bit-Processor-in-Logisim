@@ -134,9 +134,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(280,400)" to="(280,440)"/>
     <wire from="(960,260)" to="(990,260)"/>
     <wire from="(60,650)" to="(80,650)"/>
-    <wire from="(530,360)" to="(600,360)"/>
     <wire from="(1080,420)" to="(1110,420)"/>
     <wire from="(1080,460)" to="(1110,460)"/>
+    <wire from="(530,360)" to="(600,360)"/>
     <wire from="(100,180)" to="(110,180)"/>
     <wire from="(580,380)" to="(580,430)"/>
     <wire from="(1090,240)" to="(1110,240)"/>
@@ -151,8 +151,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(100,150)" to="(100,160)"/>
     <wire from="(530,370)" to="(590,370)"/>
     <wire from="(570,250)" to="(570,320)"/>
-    <wire from="(530,390)" to="(570,390)"/>
     <wire from="(980,190)" to="(980,220)"/>
+    <wire from="(530,390)" to="(570,390)"/>
     <wire from="(560,400)" to="(560,490)"/>
     <wire from="(1470,270)" to="(1530,270)"/>
     <wire from="(620,110)" to="(620,140)"/>
@@ -175,8 +175,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(550,530)" to="(600,530)"/>
     <wire from="(120,380)" to="(120,390)"/>
     <wire from="(1080,210)" to="(1080,300)"/>
-    <wire from="(530,340)" to="(590,340)"/>
     <wire from="(560,50)" to="(620,50)"/>
+    <wire from="(530,340)" to="(590,340)"/>
     <wire from="(1040,700)" to="(1040,730)"/>
     <wire from="(530,320)" to="(570,320)"/>
     <wire from="(80,380)" to="(80,400)"/>
@@ -209,8 +209,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(580,430)" to="(610,430)"/>
     <wire from="(230,130)" to="(250,130)"/>
     <wire from="(550,410)" to="(550,530)"/>
-    <wire from="(530,350)" to="(600,350)"/>
     <wire from="(300,170)" to="(310,170)"/>
+    <wire from="(530,350)" to="(600,350)"/>
     <wire from="(240,110)" to="(250,110)"/>
     <wire from="(620,50)" to="(630,50)"/>
     <wire from="(990,200)" to="(1070,200)"/>
