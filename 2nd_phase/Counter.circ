@@ -207,7 +207,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="east"/>
       <a name="label" val="jump"/>
     </comp>
-    <comp lib="0" loc="(1350,980)" name="Constant"/>
     <comp lib="1" loc="(230,520)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
