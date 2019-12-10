@@ -498,9 +498,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="6" loc="(524,940)" name="Text">
-      <a name="text" val="eğer karşılaştırma koşulu sağlanıyorsa adresi gönder, sağlanmıyorsa +1"/>
-    </comp>
     <comp lib="0" loc="(1110,500)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="2"/>
@@ -538,10 +535,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="2" loc="(280,120)" name="Multiplexer">
       <a name="width" val="18"/>
+      <a name="enable" val="false"/>
     </comp>
     <comp lib="0" loc="(70,620)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="clk"/>
+    </comp>
+    <comp lib="6" loc="(581,718)" name="Text">
+      <a name="text" val="eğer karşılaştırma koşulu sağlanıyorsa adresi gönder, sağlanmıyorsa +1"/>
     </comp>
     <comp lib="6" loc="(195,46)" name="Text">
       <a name="text" val="diger degeri de  CU'dan al ve ALU'ya gonder"/>
@@ -575,9 +576,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="18"/>
       <a name="label" val="reg1_value"/>
     </comp>
-    <comp lib="6" loc="(598,700)" name="Text">
-      <a name="text" val="LD, ST, JUMP veya B'lilerden birine göre input adresi gönder"/>
-    </comp>
     <comp lib="0" loc="(950,640)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="10"/>
@@ -590,9 +588,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(600,270)" name="Tunnel">
       <a name="label" val="is_immediate"/>
-    </comp>
-    <comp lib="6" loc="(597,727)" name="Text">
-      <a name="text" val="LD:1000, ST:1001, JUMP:1010, B:1011 ve sonrası"/>
     </comp>
     <comp lib="0" loc="(600,600)" name="Tunnel">
       <a name="label" val="comparison_successor"/>
@@ -609,6 +604,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(130,520)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
+    </comp>
+    <comp lib="6" loc="(576,934)" name="Text">
+      <a name="text" val="jump opcode geldiyse address_14'ü extend edip counter'a gönder"/>
     </comp>
     <comp lib="0" loc="(2070,1490)" name="Constant">
       <a name="value" val="0x0"/>
