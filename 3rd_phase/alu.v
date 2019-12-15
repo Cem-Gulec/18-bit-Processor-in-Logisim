@@ -1,5 +1,5 @@
 `include "18_bits_adder.v"
-`include "Mux.v"
+`include "mux.v"
 
 module ALU(A, B, alu_operation, result);
 
@@ -13,6 +13,6 @@ module ALU(A, B, alu_operation, result);
     assign orResult = A | B;
     assign xorResult = A ^ B;
 
-    mux4to1 m1(result, add_result, and_result, or_result, xor_result,alu_operation);
+    mux_4to1 m1(add_result, and_result, or_result, xor_result, alu_operation, result);
 
 endmodule
