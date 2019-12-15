@@ -3,9 +3,9 @@
 
 module ALU(A, B, alu_operation, result);
 
-    input wire [17:0] A, B;
-    input wire [1:0] alu_operation;
-    output wire [17:0] result;
+    input wire[17:0] A, B;
+    input wire[1:0] alu_operation;
+    output wire[17:0] result;
 
     wire [17:0] add_result, and_result, or_result, xor_result;
     Adder_18_bits adder (add_result, A, B);

@@ -1,16 +1,16 @@
 module mux_2to1 ( 
-	input [17:0] in0, in1,
-   	input [1:0] sel,
-    output reg [17:0] out);
+	input[17:0] in0, in1,
+   	input[1:0] sel,
+    output[17:0] out);
 
     assign out = (sel == 1'b1) ? in1 : in0;
 
 endmodule
 
 module mux_4to1 ( 
-	input [17:0] in0, in1, in2, in3,
-   	input [1:0] sel,
-    output reg [17:0] out);
+	input[17:0] in0, in1, in2, in3,
+   	input[1:0] sel,
+    output[17:0] out);
 
     //whenever one of the input value or selective bit value changes
     always @ (in0 or in1 or in2 or in3 or sel)
@@ -25,10 +25,10 @@ module mux_4to1 (
 endmodule
 
 module mux_16to1 ( 
-	input [17:0] in0, in1, in2, in3, in4, in5, in6, in7, in8, in9,
-	input [17:0] in10, in11, in12, in13, in14, in15, in16, in17,
-   	input [1:0] sel,
-    output reg [17:0] out);
+	input[17:0] in0, in1, in2, in3, in4, in5, in6, in7, in8, in9,
+	input[17:0] in10, in11, in12, in13, in14, in15, in16, in17,
+   	input[1:0] sel,
+    output[17:0] out);
 
     //whenever one of the input value or selective bit value changes
     always @ (in0 or in1 or in2 or in3 or in4 or in5 or in6 or in7 or in8 or in9 or 			in10 or in11 or in12 or in13 or in14 or in15 or in16 or in17 or sel)
