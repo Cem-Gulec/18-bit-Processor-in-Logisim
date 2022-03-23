@@ -8,9 +8,6 @@ Members of project team are listed below:<br>
 * **Ömer Faruk Çakı** :octocat:
 * **Cem Güleç** 🚀
 
-##
-First iteration: Assembler design
-##
-Second iteration: Logism design
-##
-Third iteration: Verilog design
+**First iteration**: Assembler design   
+**Second iteration**: Logisim design   
+**Third iteration**: Verilog design
